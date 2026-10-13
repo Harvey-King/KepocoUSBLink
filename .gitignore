@@ -1,0 +1,28 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local secrets and editor settings
+.env
+.env.*
+.vscode/
+.idea/
+
+# Generated captures, verification reports and previews
+*.jsonl
+*-report.json
+*-verification.json
+*-gui-check.json
+hardware-status.json
+fight-preview.png
+*.diff
+
+# Build output and OS metadata
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
